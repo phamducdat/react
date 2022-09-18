@@ -1,5 +1,4 @@
 {
-  "name": "datpd-lib-v2",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -31,5 +30,9 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "name": "@phamducdat/react",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/phamducdat"
+  }
 }
