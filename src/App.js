@@ -1,11 +1,11 @@
 import './App.css';
-import {Button} from "datpd-first-ui";
+import {Button} from "first-ui-component";
 
 function App() {
     return (
         <div className="App">
-            <Button>
-                datpd
+            <Button text={"datpd"}>
+                The first
             </Button>
         </div>
     );
