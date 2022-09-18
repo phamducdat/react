@@ -1,11 +1,11 @@
 import './App.css';
-import {Button} from "first-ui-component";
+import {Button} from "@phamducdat/react"
 
 function App() {
     return (
         <div className="App">
-            <Button text={"datpd"}>
-                The first
+            <Button label={"datpd"}>
+
             </Button>
         </div>
     );
