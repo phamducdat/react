@@ -1,12 +1,10 @@
 import './App.css';
-import {Button} from "@phamducdat/react"
+import {Button} from "create-lib-antd-v1/dist/cjs";
 
 function App() {
     return (
         <div className="App">
-            <Button label={"datpd"}>
-
-            </Button>
+            <Button label={"datpd"}/>
         </div>
     );
 }
