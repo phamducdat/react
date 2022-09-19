@@ -1,12 +1,10 @@
 import React from "react";
-import "./Button.css";
 import {Button} from "antd";
-export interface DP_ButtonProps {
-    label: string;
-}
+import {BaseButtonProps} from "antd/es/button/button";
 
-const DP_Button = (props: DP_ButtonProps) => {
-    return <Button title={"datpd"}>{"hava"}</Button>;
+
+const DP_Button = (props: BaseButtonProps) => {
+    return <Button  {...props}/>
 };
 
 export default DP_Button;
