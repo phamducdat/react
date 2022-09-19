@@ -2800,9 +2800,9 @@ function requireReact_development () {
 
 var React = /*@__PURE__*/getDefaultExportFromCjs(react.exports);
 
-var Button = function (props) {
+var DP_Button = function (props) {
     return React.createElement("button", null, props.label);
 };
 
-export { Button };
+export { DP_Button };
 //# sourceMappingURL=index.js.map
