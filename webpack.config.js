@@ -1,10 +1,18 @@
-const path = require('path') // lấy đường dẫn tuyệt đối của thư mục
-
+const path = require('path')
 const config = {
     entry: './src/index.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'build')
+    },
+    module: {
+        rules: [
+            {
+                use: 'babel-loader',
+                exclude: /node_modules/,
+                test: /\.js$/
+            }
+        ]
     }
 }
 module.exports = config;
